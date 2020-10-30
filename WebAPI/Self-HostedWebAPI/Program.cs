@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Topshelf;
 
-namespace Self_HostedWebAPI
+namespace SelfHostedWebAPI
 {
     class Program
     {

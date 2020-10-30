@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Web.Http.Dependencies;
 using System.Web.Http.SelfHost;
 
-namespace Self_HostedWebAPI
+namespace SelfHostedWebAPI
 {
     class ConfigureHttpSelfHostConfiguration
     {

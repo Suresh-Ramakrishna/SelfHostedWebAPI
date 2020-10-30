@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30615.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Self-HostedWebAPI", "Self-HostedWebAPI\Self-HostedWebAPI.csproj", "{D7D084A5-1CB7-46D2-9FBA-DAA2D2CFB4ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfHostedWebAPI", "Self-HostedWebAPI\SelfHostedWebAPI.csproj", "{D7D084A5-1CB7-46D2-9FBA-DAA2D2CFB4ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
