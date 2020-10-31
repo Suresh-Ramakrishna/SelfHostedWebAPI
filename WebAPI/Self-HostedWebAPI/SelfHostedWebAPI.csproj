@@ -59,6 +59,7 @@
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
     <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -79,11 +80,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConfigureHttpSelfHostConfiguration.cs" />
+    <Compile Include="CustomMediaTypeFormatter.cs" />
     <Compile Include="Filters\AuthenticationFilter.cs" />
     <Compile Include="Filters\AuthorizationFilter.cs" />
     <Compile Include="Filters\ExceptionFilter.cs" />
     <Compile Include="Filters\LoggerActionFilter.cs" />
+    <Compile Include="MessageHandlers.cs" />
     <Compile Include="NumbersController.cs" />
+    <Compile Include="ProductsController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebAPIService.cs" />
